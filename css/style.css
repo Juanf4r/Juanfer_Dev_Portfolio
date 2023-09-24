@@ -7,6 +7,9 @@
     --text-black-900:#302e4d;
     --text-black-700: #504e70;
 }
+html{
+    font-size: 62.5%;
+}
 body.dark{
     --bg-black-900:#151515;
     --bg-black-100:#222222;
@@ -17,7 +20,7 @@ body.dark{
 body{
     line-height: 1.5;
     font-size: 16px;
-    font-family: 'Poppins' sans-serif;
+    font-family: 'Merriweather', serif;
 }
 *{
     margin: 0;
@@ -88,7 +91,7 @@ ul{
     margin-bottom: 60px;
 }
 .section-title h2{
-    font-size: 40px;
+    font-size: 4rem;
     color: var(--text-black-900);
     font-weight: 700;
     position: relative;
@@ -120,8 +123,8 @@ ul{
     position: relative;
 }
 .btn{
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 1.6rem;
+    font-weight: 600;
     padding: 12px 35px;
     color: white;
     border-radius: 40px;
@@ -156,20 +159,20 @@ ul{
 .aside .logo{
     position: absolute;
     top: 50px;
-    font-size: 30px;
+    font-size: 3rem;
     text-transform: capitalize;
 }
 .aside .logo a{
     color: var(--text-black-900);
     font-weight: 700;
     padding: 15px 20px;
-    font-size: 30px;
+    font-size: 3rem;
     letter-spacing: 5px;
     position: relative;
 }
 .aside .logo a span{
     font-family: 'Clicker Script',cursive;
-    font-size: 40px;
+    font-size: 4rem;
 }
 .aside .logo a::before{
     content: '';
@@ -250,7 +253,7 @@ ul{
     display: block;
 }
 .aside .nav li a{
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 600;
     display: block;
     border-bottom: 1px solid var(--bg-black-50);
@@ -274,12 +277,12 @@ ul{
     max-width: 60%;
 }
 h3.hello{
-    font-size: 28px;
+    font-size: 2.8rem;
     margin: 15px 0;
 }
 h3.hello span{
     font-family: 'Clicker Script', cursive;
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: 700;
     color: var(--skin-color);
 }
@@ -292,7 +295,7 @@ h3.my-profession{
 }
 .home-info p{
     margin-bottom: 70px;
-    font-size: 20px;
+    font-size: 2rem;
     color: var(--text-black-700);
 }
 .home .home-img{
@@ -338,7 +341,7 @@ h3.my-profession{
     max-width: 100%;
 }
 .about .about-content .about-text h3{
-    font-size: 24px;
+    font-size: 2.4rem;
     margin-bottom: 15px;
     font-weight: 700;
     color: var(--text-black-900);
@@ -347,7 +350,7 @@ h3.my-profession{
     color: var(--skin-color);
 }
 .about .about-content .about-text p{
-    font-size: 16px;
+    font-size: 1.6rem;
     line-height: 25px;
     color: var(--text-black-700);
 }
@@ -363,7 +366,7 @@ h3.my-profession{
 .about .about-content .personal-info  .info-item p{
     font-weight: 600;
     padding: 10px 0;
-    font-size: 16px;
+    font-size: 1.6rem;
     color: var(--text-black-900);
     border-bottom: 1px solid var(--bg-black-50);
 }
@@ -392,7 +395,7 @@ h3.my-profession{
 .about .about-content .skills .skill-item h5{
     line-height: 40px;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 1.6rem;
     color: var(--text-black-900);
     text-transform: capitalize;
 }
@@ -425,7 +428,7 @@ h3.my-profession{
     margin-top: 30px;
 }
 .about .about-content h3.title{
-    font-size: 24px;
+    font-size: 2.4rem;
     margin-bottom: 30px;
     font-weight: 700;
     color: var(--text-black-900);
@@ -470,7 +473,7 @@ h3.my-profession{
 }
 .about .about-content .timeline .timeline-date{
     font-weight: 400;
-    font-size: 14px;
+    font-size: 1.4rem;
     margin-bottom: 12px;
     color: var(--text-black-700);
 }
@@ -479,14 +482,14 @@ h3.my-profession{
 }
 .about .about-content .timeline .timeline-title{
     font-weight: 700;
-    font-size: 18px;
+    font-size: 1.8rem;
     margin-bottom: 15px;
     text-transform: capitalize;
     color: var(--text-black-900);
 }
 .about .about-content .timeline .timeline-text{
     line-height: 25px;
-    font-size: 16px;
+    font-size: 1.6rem;
     text-align: justify;
     color: var(--text-black-700);
 }
@@ -520,7 +523,7 @@ h3.my-profession{
     transition: all 0.3s ease;
 }
 .service .service-item .service-item-inner .icon .fa{
-    font-size: 40px;
+    font-size: 4rem;
     line-height: 60px;
     color: var(--skin-color);
     transition: all 0.3s ease;
@@ -529,17 +532,17 @@ h3.my-profession{
     background: var(--skin-color);
 }
 .service .service-item .service-item-inner:hover .icon .fa{
-    font-size: 25px;
+    font-size: 2.5rem;
     color: #ffffff;
 }
 .service .service-item .service-item-inner h4{
-    font-size: 18px;
+    font-size: 1.8rem;
     margin-bottom: 15px;
     color: var(--text-black-900);
     text-transform: capitalize;
 }
 .service .service-item .service-item-inner p{
-    font-size: 16px;
+    font-size: 1.6rem;
     color: var(--text-black-700);
     line-height: 25px;
 }
@@ -575,13 +578,13 @@ h3.my-profession{
 .contact-title{
     color: var(--skin-color);
     text-align: center;
-    font-size: 25px;
+    font-size: 2.5rem;
     margin-bottom: 20px;
 }
 .contact-sub-title{
     color: var(--text-black-900);
     text-align: center;
-    font-size: 15px;
+    font-size: 1.5rem;
     margin-bottom: 60px;
 }
 .contact .contact-info-item{
@@ -594,18 +597,18 @@ h3.my-profession{
     display: inline-block;
 }
 .contact .contact-info-item .icon .fa{
-    font-size: 25px;
+    font-size: 2.5rem;
     color: var(--skin-color);
 }
 .contact .contact-info-item h4{
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 700;
     color: var(--text-black-900);
     text-transform: capitalize;
     margin: 15px 0 5px;
 }
 .contact .contact-info-item p{
-    font-size: 16px;
+    font-size: 1.6rem;
     line-height: 25px;
     color: var(--text-black-700);
     font-weight: 400;
@@ -617,7 +620,6 @@ h3.my-profession{
 .contact .contact-form .col-6{
     flex: 0 0 50%;
     max-width: 50%;
-    
 }
 .contact .contact-form .col-12{
     flex: 0 0 100%;
@@ -633,7 +635,7 @@ h3.my-profession{
     background: var(--bg-black-100);
     border: 1px solid var(--bg-black-50);
     padding: 10px 25px;
-    font-size: 16px;
+    font-size: 1.6rem;
     color: var(--text-black-700);
     transition: all 0.3s ease;
 }
