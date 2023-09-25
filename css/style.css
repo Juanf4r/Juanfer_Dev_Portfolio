@@ -706,5 +706,12 @@ h3.my-profession{
     .about .about-content .personal-info{
         flex: 0 0 100%;
         max-width: 100%;
-    }
+    }  
+}
+.footer{
+    color: var(--skin-color);
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
 }
