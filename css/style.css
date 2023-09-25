@@ -282,7 +282,7 @@ h3.hello{
     margin: 15px 0;
 }
 h3.hello span{
-    font-family: 'Clicker Script', cursive;
+    font-family: 'League Spartan', sans-serif;
     font-size: 3rem;
     font-weight: 700;
     color: var(--skin-color);
