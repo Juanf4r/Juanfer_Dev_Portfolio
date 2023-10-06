@@ -261,6 +261,13 @@ ul{
     color: var(--text-black-900);
     padding: 5px 15px;;
 }
+.aside .nav .social li a{
+    font-size: 2.2rem;
+    display: flex;
+    color: var(--text-black-900);
+    border-bottom: none;
+    padding: 0px 30px;
+}
 .aside .nav li a.active{
     color: var(--skin-color);
 }

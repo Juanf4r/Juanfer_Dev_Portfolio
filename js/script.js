@@ -1,5 +1,5 @@
 /* =================================== Typing Animation =================================== */
-var typed = new Typed(".typing",{
+let typed = new Typed(".typing",{
     strings:["Game Developer","Software Developer","Game Designer","Cat Lover","Gamer"],
     typeSpeed: 110,
     BackSpeed: 60,
