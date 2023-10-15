@@ -576,11 +576,17 @@ h3.my-profession{
     border: 6px solid var(--bg-black-100);
     border-radius: 10px;
     overflow: hidden;
-    cursor: pointer;
+    cursor: default;
 }
 .portfolio .portfolio-item-inner .portfolio-img img{
     width: 100%;
     display: block;
+    cursor: default;
+}
+
+.portfolio .portfolio-item-inner .portfolio-img a img{
+    margin: 1rem 0rem;
+    cursor: pointer;
 }
 /* contact */
 .contact-title{
