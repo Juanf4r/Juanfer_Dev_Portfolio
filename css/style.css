@@ -572,6 +572,13 @@ h3.my-profession{
     max-width: 33.33%;
     margin-bottom: 30px;
 }
+.portfolio .title{
+    padding-bottom: 15px;
+    color: var(--text-black-900);
+    font-weight: 600;
+    text-align: center;
+}
+
 .portfolio .portfolio-item-inner{
     border: 6px solid var(--bg-black-100);
     border-radius: 10px;
@@ -620,6 +627,11 @@ h3.my-profession{
     color: var(--text-black-900);
     text-transform: capitalize;
     margin: 15px 0 5px;
+}
+
+.contact .contact-info-item .links:hover{
+    text-decoration: underline;
+
 }
 .contact .contact-info-item p{
     font-size: 1.6rem;
