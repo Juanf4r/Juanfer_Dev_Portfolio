@@ -1,6 +1,6 @@
 /* =================================== Typing Animation =================================== */
 let typed = new Typed(".typing",{
-    strings:["Game Developer","Software Developer","Game Designer","Cat Lover","Gamer"],
+    strings:["Technical Game Designer","Game Developer","Software Developer","Cat Lover","Gamer"],
     typeSpeed: 110,
     BackSpeed: 60,
     loop:true
@@ -11,13 +11,13 @@ const nav = document.querySelector(".nav"),
     totalNavList = navList.length;
     allSection = document.querySelectorAll(".section"),
     totalSection = allSection.length;
-    for(let i=0;i<totalNavList;i++)
+    for(let i = 0; i < totalNavList; i++)
     {
-        const a =navList[i].querySelector("a");
+        const a = navList[i].querySelector("a");
         a.addEventListener("click",function()
         {
         removeBackSection();
-            for(let j = 0;j<totalNavList;j++)
+            for(let j = 0; j < totalNavList; j++)
             {
                 if(navList[j].querySelector("a").classList.contains("active"))
                 {
@@ -56,7 +56,7 @@ const nav = document.querySelector(".nav"),
     }
     function updateNav(element)
     {
-        for(let i = 0; i<totalNavList;i++)
+        for(let i = 0; i < totalNavList; i++)
         {
             navList[i].querySelector("a").classList.remove("active");
             const target = element.getAttribute("href").split("#")[1];
