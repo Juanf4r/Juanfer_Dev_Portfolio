@@ -168,12 +168,13 @@ ul{
     font-size: 3rem;
     letter-spacing: 5px;
     position: relative;
+    cursor: default;
 }
 .aside .logo a span{
     font-family: 'League Spartan', sans-serif;
     font-size: 3rem;
     color: var(--skin-color);
-    cursor: not-allowed;
+    cursor: default;
 }
 .aside .logo a::before{
     content: '';
